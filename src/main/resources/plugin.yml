@@ -1,0 +1,16 @@
+name: WanderBots
+version: '${version}'
+main: dev.voriside.wanderbots.WanderBotsPlugin
+api-version: '1.21'
+author: VORISIDE
+description: Random-name fake player bots that wander with gravity, collision avoidance, damage, armor and skins.
+commands:
+  wanderbots:
+    description: Manage WanderBots player bots.
+    usage: /wanderbots <spawn|remove|list|equip|hold|respawn|reload>
+    aliases: [bots, wb]
+    permission: wanderbots.admin
+permissions:
+  wanderbots.admin:
+    description: Full WanderBots command access.
+    default: op

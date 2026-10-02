@@ -1,0 +1,24 @@
+WanderBots install — Windows
+
+1) Install Java 21 (JDK 21), not just a JRE.
+2) Install Gradle 9+ and add Gradle's bin folder to PATH.
+3) Open PowerShell in the WanderBots project folder.
+4) Run:
+   .\build.ps1
+5) Open build\libs and copy the generated WanderBots-1.0.0.jar into your Paper server's plugins folder.
+6) Make sure that server is Paper 1.21.11 and uses Java 21.
+7) Start the server.
+8) Join as OP and run:
+   /bots spawn 10
+9) Run:
+   /bots equip all
+   /bots hold all
+10) Press TAB. The bots should be listed with the real players.
+
+Useful commands:
+   /bots list
+   /bots remove all
+   /bots respawn all
+   /bots reload
+
+Important: because this plugin uses Paper/NMS internals for real fake-player entities, it is specifically built for Paper 1.21.11.

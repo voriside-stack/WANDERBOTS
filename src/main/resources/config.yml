@@ -1,0 +1,23 @@
+max-bots: 100
+
+movement:
+  speed: 0.115
+  wander-radius: 32.0
+  random-turn-chance-per-tick: 0.025
+  minimum-turn-degrees: 35.0
+  maximum-turn-degrees: 125.0
+  obstacle-look-distance: 1.05
+  jump-over-one-block-obstacles: true
+  respawn-after-death-ticks: 100
+
+skins:
+  auto-discover: true
+  discovery-target: 320
+  discovery-pages: 8
+  user-agent: "WanderBots/1.0"
+  cache-file: "skin-cache.yml"
+
+items:
+  random-item-chance-stack: 0.20
+  random-armor-enchant-min: 1
+  random-armor-enchant-max: 3

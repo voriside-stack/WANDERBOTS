@@ -31,4 +31,3 @@ jobs:
         with:
           name: WanderBots
           path: build/libs/*.jar
-          
